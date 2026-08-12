@@ -11,6 +11,9 @@
     flake-parts.lib.mkFlake { inherit inputs; } {
       flake = {
         templates = {
+          basic = {
+            path = ./basic;
+          };
           go = {
             path = ./go;
           };
