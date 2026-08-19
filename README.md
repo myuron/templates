@@ -11,3 +11,8 @@ nix flake init -t github:myuron/templates#basic
 ```
 nix flake init -t github:myuron/templates#go
 ```
+## rust
+
+```
+nix flake init -t github:myuron/templates#rust
+```

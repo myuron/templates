@@ -17,6 +17,9 @@
           go = {
             path = ./go;
           };
+          rust = {
+            path = ./rust;
+          };
         };
       };
     };
